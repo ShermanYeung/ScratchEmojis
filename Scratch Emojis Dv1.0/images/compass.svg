@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="compass">
+    <path d="M0 0L64 0L64 64L0 64L0 0Z" id="Rectangle-2" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <g id="Group-45" transform="translate(7.2470703 5)">
+      <path d="M29.4898 8.42843L29.9161 8.42843C30.9817 8.42843 31.8537 7.55652 31.8537 6.49086L31.8537 1.93757C31.8537 0.871906 30.9817 0 29.9161 0L17.3412 0C16.2756 0 15.4037 0.871906 15.4037 1.93757L15.4037 6.49086C15.4037 7.55652 16.2756 8.42843 17.3412 8.42843L17.7675 8.42843C13.3208 9.5619 9.28096 11.9839 6.1421 15.4327C2.17977 19.7923 0 25.4306 0 31.3208C0 37.6276 2.46072 43.5663 6.91713 48.0227C11.3735 52.4791 17.3122 54.9398 23.619 54.9398C29.9258 54.9398 35.8644 52.4791 40.3208 48.0227C44.7772 43.5663 47.238 37.6276 47.238 31.3208C47.238 25.4306 45.0582 19.7826 41.0959 15.4327C37.9764 11.9742 33.9365 9.5619 29.4898 8.42843L29.4898 8.42843Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <g id="Group" transform="translate(1.9569397 1.9279175)">
+        <path d="M0 0L4.39828 0L4.39828 12.8848L0 12.8848L0 0Z" transform="translate(19.4823 0)" id="Rectangle" fill="#88623E" fill-rule="evenodd" stroke="none" />
+        <path d="M0 0L12.5748 0L12.5748 4.55329L0 4.55329L0 0Z" transform="translate(15.394012 0)" id="Rectangle" fill="#88623E" fill-rule="evenodd" stroke="none" />
+        <path d="M0 21.6814C0 9.7071 9.7071 0 21.6814 0C33.6557 0 43.3628 9.7071 43.3628 21.6814C43.3628 33.6557 33.6557 43.3628 21.6814 43.3628C9.7071 43.3628 0 33.6557 0 21.6814Z" transform="translate(0 7.7018127)" id="Circle" fill="#88623E" fill-rule="evenodd" stroke="none" />
+        <path d="M0 17.1281C0 7.66852 7.66852 0 17.1281 0C26.5877 0 34.2562 7.66852 34.2562 17.1281C34.2562 26.5877 26.5877 34.2562 17.1281 34.2562C7.66852 34.2562 0 26.5877 0 17.1281Z" transform="translate(4.553314 12.255096)" id="Circle" fill="#FFD597" fill-rule="evenodd" stroke="none" />
+        <path d="M24.2099 0L9.10658 9.10658L0 24.2099L15.113 15.1033L24.2099 0Z" transform="translate(9.571564 17.283142)" id="Polygon" fill="#B96E3E" fill-rule="evenodd" stroke="none" />
+        <path d="M0 1.676C0 0.75037 0.75037 0 1.676 0C2.60163 0 3.352 0.75037 3.352 1.676C3.352 2.60163 2.60163 3.352 1.676 3.352C0.75037 3.352 0 2.60163 0 1.676Z" transform="translate(20.005402 27.707245)" id="Circle" fill="#88623E" fill-rule="evenodd" stroke="none" />
+      </g>
+    </g>
+  </g>
+</svg>

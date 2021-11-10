@@ -1,0 +1,220 @@
+.ResizableItem{
+    transition: transform .2s;
+    overflow: visible;
+}
+.ResizableItem:hover{
+    transform: scale(1.15);
+    cursor:pointer;
+}
+.ResizableItem:active{
+    transform: scale(0.9);
+}
+
+.EmojiSmallContainer:hover{
+    cursor:pointer;
+}
+
+.Emoji{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+
+[id="EmojiContainer"]{
+    position:absolute;
+    width:320px;
+    height:498px;
+    z-index:9;
+    border-radius:8px;
+    background-color:#FFFFFF;
+
+    box-shadow:  0 0 10px 0px rgba(153,153,153,0.6);
+}
+
+
+
+.EmojiSmallContainer{
+    border-radius: 10px;
+    margin:5px;
+    width:64px;
+    height:64px;
+    display:inline-block;
+    overflow: hidden;
+}
+.EmojiSmallContainer:hover{
+    background-color:#cacaca;
+}
+
+
+
+
+
+[id="PopupText"]{
+    font-size: 16px;
+    font-weight: bold;
+    border:10px;
+
+    line-height: 40px;
+    text-align: center;
+
+    color:aliceblue;
+}
+[id="PopupTextContainer"]{
+    background-color: #4d97ff;
+    border-radius: 4px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+
+    width: 290px;
+    height:40px;
+
+}
+
+[id="SearchEmojis"]{
+    margin-left: 15px;
+    width: 285px;
+    height:20px;
+    border-color: white;
+    border-radius: 6px;
+    resize: none;
+    outline: none;
+
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+
+    background-color: #ffffff;
+    
+}
+
+[id="SearchEmojis"]:hover{
+    background-color: #e7e7e7;
+}
+
+[id="SearchEmojis"]:focus{
+    background-color: #e7e7e7;
+}
+
+
+div[id="UndoButtonContainer"]{
+    position:absolute;
+}
+
+div[id="ClearSearchContainer"]{
+    margin-left:122.5px;
+}
+
+
+
+
+
+[id="AddEmoji"]{
+    border:none;
+    margin:6.4px;
+    background-color:#ffb32f;
+    width:95px;
+    height:40px;
+    border-radius:3px;
+
+    transition: transform .2s;
+}
+[id="AddEmoji"].smaller{
+
+    border:none;
+    display:inline-block;
+    margin:none;
+    position:relative;
+    top:10px;
+    left:-10px;
+
+    background-color:#ffb32f;
+    width:80px;
+    height:31px;
+    border-radius:3px;
+
+    transition: transform .2s;
+}
+.AddEmoji:hover{
+    cursor:pointer;
+    transform: scale(1.1,1.1);
+    box-shadow:  0 0 8px 0px rgba(153,153,153,0.6);
+}
+.AddEmoji:active{
+    transform: scale(0.9);
+}
+
+
+
+[id="AddEmojisButtonText"]{
+    color:white;
+    font-size: .8rem;
+    font-weight: bold;
+    position:relative;
+    top:-15px;
+    left:-3px;
+}
+[id="AddEmojisButtonText"].smaller{
+    color:white;
+    font-size: .4rem;
+    font-weight: bold;
+    position:relative;
+    top:-10px;
+    left:auto;
+
+
+}
+
+[id="AddEmojiButtonImg"]{
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin:10px;
+}
+[id="AddEmojiButtonImg"].smaller{
+    width: 18px;
+    height: 18px;
+    border: none;
+    margin:6px;
+}
+
+[id="EmojiContentContainer"]{
+    width:320px;
+    height:336px;
+    overflow:scroll;
+
+    
+}
+
+
+
+
+
+
+
+[id="EmojiContentContainer"]::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+[id="EmojiContentContainer"]::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
+
+/* Handle */
+[id="EmojiContentContainer"]::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.527); 
+    border-radius:20px;
+}
+
+/* Handle on hover */
+[id="EmojiContentContainer"]::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.678);   
+}
