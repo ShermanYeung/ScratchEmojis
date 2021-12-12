@@ -1,0 +1,33 @@
+{
+    "manifest_version":2,
+    "name": "Scratch Emojis",
+    "description":"Emoji picker for scratch comments!",
+    "version":"1.1.3",
+    "icons":{"500":"icons/icon.png"},
+    "browser_action":{
+        "default_icon":"icons/icon.png",
+        "default_popup":"Popups/Popup.html"
+    },
+    "permissions":[
+        "https://scratch.mit.edu/*",
+        "activeTab"
+    ],
+    "content_scripts":[
+        {
+            "matches":["https://scratch.mit.edu/*"],
+            "run_at":"document_end",
+            "js":["ServiceAssigner.js"]
+        }
+    ],
+
+    "web_accessible_resources":[
+        "Stylesheets/*",
+        "images/*",
+        "AddEmojis.js",
+        "BetterEmojis.js",
+        "BlankAlert.js",
+        "icons/*"
+
+    ]
+    
+}
