@@ -1,0 +1,34 @@
+{
+    "manifest_version":2,
+
+    "name": "Scratch Emojis",
+    "version":"1.2.0",
+    "description":"Professional emojis picker for Scratch comments!",
+    "icons":{"300":"icons/icon.png"}, 
+
+    
+    "homepage_url":"https://microsoftedge.microsoft.com/addons/detail/ojgkfclifnnmeecmjooclkkgfnnchpmn",
+    "options_ui": {"page":"Options.html","open_in_tab":true},
+
+
+    "permissions":[
+        "activeTab"
+    ],
+    "web_accessible_resources":[
+        "icons/*",
+        "images/*",
+        "js/*",
+        "css/*"
+    ],
+
+    
+    "content_scripts":[
+        {
+            "matches":["https://scratch.mit.edu/*"],
+            "run_at":"document_end",
+
+            "css":["css/MainStyle2.css"],
+            "js":["js/EmojisData.js","js/AddEmojis2.js","js/BetterEmojis2.js"]
+        }
+    ]
+}
