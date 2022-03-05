@@ -1,8 +1,0 @@
-How to use:
-
-By installing this extension, you can find an "emojis" button near the post and cancel buttons in the comment section.
-
-Press it and choose the emojis.
-
-To clear the search, press the SEARCH BAR.
-
